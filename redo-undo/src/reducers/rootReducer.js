@@ -1,6 +1,6 @@
 import { combineReducers } from "redux";
 import undoable, { includeAction } from "redux-undo";
-import Counter from "../reducers/counter";
+import Counter from "./counter";
 import {
   INCREMENT_COUNTER,
   DECREMENT_COUNTER,
